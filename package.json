@@ -1,0 +1,34 @@
+{
+  "name": "redi",
+  "version": "1.0.0",
+  "description": "Inspiting work boards for achievers",
+  "main": "index.js",
+  "bin": {
+    "redi": "http.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.73.0",
+    "chalk": "^1.1.3",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./bin/http"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/var-kar/redi.git"
+  },
+  "keywords": [
+    "scrum",
+    "agile",
+    "project-management"
+  ],
+  "author": "Karthik Vasudevan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/var-kar/redi/issues"
+  },
+  "homepage": "https://github.com/var-kar/redi#readme"
+}
